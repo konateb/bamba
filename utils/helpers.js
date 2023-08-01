@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const add = (n1, n2) => {
-  return parseInt(n1) - parseInt(n2);
+  return parseInt(n1) + parseInt(n2);
 };
 const sub = (n1, n2) => {
   return parseInt(n1) - parseInt(n2);
@@ -13,7 +13,7 @@ const mult = (n1, n2) => {
 const getRandom1 = () => {
   return Math.random() * 100 + 1;
 };
-const getRandom2 = (min,max) => {
-  return Math.random() * (max-min) + min;
+const getRandom2 = (min, max) => {
+  return Math.random() * (max - min) + min;
 };
 export { getRandom1, getRandom2, add, sub, mult };
