@@ -10,8 +10,10 @@ const mult = (n1, n2) => {
   return "metter les instruction pour faire multiplication" + parse;
 };
 //genereate nombre alleatotoire entre 1 et 100
-const getRandom = () => {
+const getRandom1 = () => {
   return Math.random() * 100 + 1;
 };
-
-export { getRandom, add, sub,mult};
+const getRandom2 = (min,max) => {
+  return Math.random() * (max-min) + min;
+};
+export { getRandom1, getRandom2, add, sub, mult };
