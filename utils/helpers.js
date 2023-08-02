@@ -17,7 +17,7 @@ const getRandom2 = (min, max) => {
   return Math.random() * (max - min) + min;
 };
 
-// Ajouter une fonction de conversion de Fahrenheit en Celsius
+// Dans le fichier tp1.js  concevoir une fonction de conversion de Fahrenheit en Celsius
 //voir le modele fournit dans le groupe du cours. 
 // Tester la dans index.js
 
