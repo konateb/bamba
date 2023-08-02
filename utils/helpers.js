@@ -16,4 +16,10 @@ const getRandom1 = () => {
 const getRandom2 = (min, max) => {
   return Math.random() * (max - min) + min;
 };
+
+// Ajouter une fonction de conversion de Fahrenheit en Celsius
+//voir le modele fournit dans le groupe du cours. 
+// Tester la dans index.js
+
+
 export { getRandom1, getRandom2, add, sub, mult };
